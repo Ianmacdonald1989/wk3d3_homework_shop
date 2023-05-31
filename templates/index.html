@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Music Shop Orders</title>
+    </head>
+    <body>
+        <h1>Music Shop Orders</h1>
+        {% for item in orders_list %}
+        
+
+        <h2>Customer Name: {{item.customer_name}} </h2>
+        <h2>Order Date: {{item.order_date}}</h2>
+        <h2>Instrument: {{item.instrument}}</h2>
+        <h2>Quantity: {{item.quantity}}</h2>
+        <h2><a href = "orders/{{loop.index-1}}">link to order</a>
+        </h2>
+
+
+        {% endfor %}
+
+
+
+
+
+
+
+    </body>
+
+
+</html>
