@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color:yellow;
+    color:black;
+    text-align: center;
+
+
+}
+
+body > h1{
+    color:red;
+}
+
+body > h2> a{
+    color:darkblue;
+}
